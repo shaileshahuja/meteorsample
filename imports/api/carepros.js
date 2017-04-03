@@ -46,7 +46,7 @@ const getAge = function (birthDate) {
 const scoreMatch = function (user, carePro) {
     let score = parseFloat(carePro["personal_information"]["rating"]);
 
-    if(user["gender"] = carePro["personal_information"]["gender"]) {
+    if(user["gender"] === carePro["personal_information"]["gender"]) {
         score += 5;
     }
 
