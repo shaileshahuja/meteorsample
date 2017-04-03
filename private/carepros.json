@@ -1,0 +1,335 @@
+{
+  "care_pros": [
+    {
+      "_id": "1",
+      "email_address": "jane.doe@gmail.com",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "phone_number": "+6591263407",
+      "status": "Approved",
+      "created_at": "2016-12-18T06:21:36.380+0000",
+      "updated_at": "2016-12-18T06:21:36.380+0000",
+      "personal_information": {
+        "gender": "Female",
+        "nationality": "Singapore Citizen",
+        "NRIC_Number": "S8271082G",
+        "race": "Indian",
+        "date_of_birth": "1965-03-18T00:00:00.000+0000",
+        "own_smart_phone": "Yes",
+        "fluent_languages": [
+          "English",
+          "Malay",
+          "Tamil",
+          "Hokkien"
+        ],
+        "city": "Singapore",
+        "rating": "4.4"
+      },
+      "availabilities": {
+        "Monday": {
+          "start_time": "8:00am",
+          "end_time": "6:00pm"
+        },
+        "Tuesday": {
+          "end_time": "3:00pm",
+          "start_time": "12:30am"
+        },
+        "Wednesday": {
+          "start_time": "6:30am",
+          "end_time": "1:30am"
+        }
+      },
+      "breaks": {
+        "Monday": {
+          "start_time" : "6:00pm",
+          "end_time" : "7:00pm"
+        },
+        "Tuesday": {
+          "start_time" : "9:00am",
+          "end_time" : "12:30pm"
+        },
+        "Wednesday": {
+          "start_time" : "11:00am",
+          "end_time" : "2:00pm"
+        },
+        "Friday": {
+          "start_time" : "12:30pm",
+          "end_time" : "6:00pm"
+        },
+        "Saturday": {
+          "start_time" : "11:00am",
+          "end_time" : "3:00pm"
+        }
+      },
+      "daysoff": [
+        {
+          "start_date": "01-01-2017",
+          "end_date": "08-01-2017"
+        }
+      ]
+    },
+    {
+      "_id": "2",
+      "email_address": "john.doe@gmail.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone_number": "+6591263408",
+      "status": "Approved",
+      "created_at": "2016-11-18T06:21:36.380+0000",
+      "updated_at": "2016-11-18T06:21:36.380+0000",
+      "personal_information": {
+        "gender": "Male",
+        "nationality": "Singapore PR",
+        "NRIC_Number": "S8271083G",
+        "race": "Malaysian",
+        "date_of_birth": "1972-03-18T00:00:00.000+0000",
+        "own_smart_phone": "Yes",
+        "fluent_languages": [
+          "English",
+          "Malay"
+        ],
+        "city": "Singapore",
+        "rating": "4.2"
+      },
+      "availabilities": {
+        "Monday": {
+          "start_time": "8:00am",
+          "end_time": "6:00pm"
+        },
+        "Thursday": {
+          "end_time": "3:00pm",
+          "start_time": "12:30am"
+        },
+        "Friday": {
+          "start_time": "6:30am",
+          "end_time": "1:30am"
+        }
+      },
+      "breaks": {
+        "Monday": {
+          "start_time" : "6:00pm",
+          "end_time" : "7:00pm"
+        },
+        "Tuesday": {
+          "start_time" : "9:00am",
+          "end_time" : "12:30pm"
+        },
+        "Wednesday": {
+          "start_time" : "11:00am",
+          "end_time" : "2:00pm"
+        },
+        "Friday": {
+          "start_time" : "12:30pm",
+          "end_time" : "6:00pm"
+        },
+        "Saturday": {
+          "start_time" : "11:00am",
+          "end_time" : "3:00pm"
+        }
+      },
+      "daysoff": [
+        {
+          "start_date": "01-04-2017",
+          "end_date": "08-04-2017"
+        }
+      ]
+    },
+    {
+      "_id": "3",
+      "email_address": "jane.doe2@gmail.com",
+      "first_name": "Alice",
+      "last_name": "Doe",
+      "phone_number": "+6581263407",
+      "status": "Approved",
+      "created_at": "2016-12-18T06:21:36.380+0000",
+      "updated_at": "2016-12-18T06:21:36.380+0000",
+      "personal_information": {
+        "gender": "Female",
+        "nationality": "Singapore Citizen",
+        "NRIC_Number": "S8274082G",
+        "race": "Chinese",
+        "date_of_birth": "1995-05-22T00:00:00.000+0000",
+        "own_smart_phone": "Yes",
+        "fluent_languages": [
+          "English",
+          "Hokkien"
+        ],
+        "city": "Singapore",
+        "rating": "4.6"
+      },
+      "availabilities": {
+        "Monday": {
+          "start_time": "8:00am",
+          "end_time": "6:00pm"
+        },
+        "Tuesday": {
+          "end_time": "3:00pm",
+          "start_time": "12:30am"
+        },
+        "Wednesday": {
+          "start_time": "8:30pm",
+          "end_time": "1:30am"
+        },
+        "Thursday": {
+          "start_time": "8:30pm",
+          "end_time": "6:30am"
+        },
+        "Friday": {
+          "start_time": "8:00am",
+          "end_time": "6:00pm"
+        }
+      },
+      "breaks": {
+        "Monday": {
+          "start_time" : "6:00pm",
+          "end_time" : "7:00pm"
+        },
+        "Tuesday": {
+          "start_time" : "9:00am",
+          "end_time" : "12:30pm"
+        },
+        "Wednesday": {
+          "start_time" : "11:00am",
+          "end_time" : "2:00pm"
+        },
+        "Friday": {
+          "start_time" : "12:30pm",
+          "end_time" : "6:00pm"
+        },
+        "Saturday": {
+          "start_time" : "11:00am",
+          "end_time" : "3:00pm"
+        }
+      },
+      "daysoff": [
+        {
+          "start_date": "08-04-2017",
+          "end_date": "20-04-2017"
+        }
+      ]
+    },
+    {
+      "_id": "4",
+      "email_address": "jane.doe3@gmail.com",
+      "first_name": "Izzy",
+      "last_name": "Doe",
+      "phone_number": "+6595263407",
+      "status": "Approved",
+      "created_at": "2016-12-18T06:21:36.380+0000",
+      "updated_at": "2016-12-18T06:21:36.380+0000",
+      "personal_information": {
+        "gender": "Female",
+        "nationality": "Chinese",
+        "NRIC_Number": "G8231082X",
+        "race": "Chinese",
+        "date_of_birth": "1965-03-18T00:00:00.000+0000",
+        "own_smart_phone": "Yes",
+        "fluent_languages": [
+          "Hokkien"
+        ],
+        "city": "Singapore",
+        "rating": "4.8"
+      },
+      "availabilities": {
+        "Wednesday": {
+          "start_time": "8:00am",
+          "end_time": "6:00pm"
+        },
+        "Thursday": {
+          "start_time": "8:30pm",
+          "end_time": "6:30am"
+        },
+        "Friday": {
+          "start_time": "8:00am",
+          "end_time": "6:00pm"
+        }
+      },
+      "breaks": {
+        "Monday": {
+          "start_time" : "9:00am",
+          "end_time" : "12:30pm"
+        },
+        "Tuesday": {
+          "start_time" : "11:00am",
+          "end_time" : "2:00pm"
+        },
+        "Friday": {
+          "start_time" : "11:00am",
+          "end_time" : "3:00pm"
+        }
+      },
+      "daysoff": [
+        {
+          "start_date": "01-04-2017",
+          "end_date": "05-04-2017"
+        },
+        {
+          "start_date": "08-04-2017",
+          "end_date": "20-04-2017"
+        },
+        {
+          "start_date": "08-05-2017",
+          "end_date": "20-05-2017"
+        }
+      ]
+    },
+    {
+      "_id": "5",
+      "email_address": "jane.doe4@gmail.com",
+      "first_name": "Shreya",
+      "last_name": "Doe",
+      "phone_number": "+6599263407",
+      "status": "Approved",
+      "created_at": "2016-12-18T06:21:36.380+0000",
+      "updated_at": "2016-12-18T06:21:36.380+0000",
+      "personal_information": {
+        "gender": "Female",
+        "nationality": "Indian",
+        "NRIC_Number": "G8271082X",
+        "race": "Indian",
+        "date_of_birth": "1974-11-01T00:00:00.000+0000",
+        "own_smart_phone": "Yes",
+        "fluent_languages": [
+          "English",
+          "Tamil"
+        ],
+        "city": "Singapore",
+        "rating": "4.0"
+      },
+      "availabilities": {
+        "Monday": {
+          "start_time": "8:30pm",
+          "end_time": "1:30am"
+        },
+        "Thursday": {
+          "start_time": "8:30pm",
+          "end_time": "6:30am"
+        },
+        "Friday": {
+          "start_time": "8:00am",
+          "end_time": "6:00pm"
+        }
+      },
+      "breaks": {
+        "Monday": {
+          "start_time" : "11:00am",
+          "end_time" : "2:00pm"
+        },
+        "Friday": {
+          "start_time" : "12:30pm",
+          "end_time" : "6:00pm"
+        },
+        "Saturday": {
+          "start_time" : "11:00am",
+          "end_time" : "3:00pm"
+        }
+      },
+      "daysoff": [
+        {
+          "start_date": "08-05-2017",
+          "end_date": "20-05-2017"
+        }
+      ]
+    }
+  ]
+}
